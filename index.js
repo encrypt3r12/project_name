@@ -7,7 +7,7 @@ console.log("Helo");
 
 console.log("He2lo");
 
-console.log("Helo");
+console.log("He11lo");
 
 console.log("He1lo");
 
