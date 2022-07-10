@@ -13,10 +13,10 @@ spec:
         app: project-name-master
     spec:
       containers:
-      - name: back-end
-        image: {client_aws_url}/project-name:{commit_id_image_tag}
-        ports:
-        - containerPort: 80
-        envFrom:
-        - secretRef:
-          name: {secret_manager_name}
+        - image: '{client_aws_url}/project-name:{commit_id_image_tag}'
+          name: back-end
+          ports:
+            - containerPort: 80
+          envFrom:
+            - secretRef:
+                name: {secret_manager_name}
