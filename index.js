@@ -7,7 +7,7 @@ console.log("He1lo");
 
 console.log("HeA221DSFasdf2s2311lo");
 
-console.log("111Hesasdadsswswsws232wsw21sfs2aasdf11lo");
+console.log("111Hesasdadsswswswasdfs232wsw21sfs2aasdf11lo");
 
 console.log("Haeasdf2alo");
 
