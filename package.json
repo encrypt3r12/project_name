@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/johnpapa/node-hello#readme",
   "dependencies": {
+    "mongoose": "^6.6.5",
+    "pg": "^8.8.0",
     "redis": "^4.3.1"
   }
 }
