@@ -1,1 +1,1 @@
-from alpine
+from ubuntu
