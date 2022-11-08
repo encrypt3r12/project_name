@@ -13,6 +13,8 @@ try {
     .then((res) => {
       console.log(res);
       client.set('manav', 'test');
+
+    console.log('redis://:1plRieFaYB@10.99.46.173:6379');
       console.log('Redis-cli Successfully ended');
     })
     .catch((err) => {
