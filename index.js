@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const redis = require('redis');
 
 try {
-  console.log('Redis-cli started');
+  console.log('RedIs-cli started');
   const client = redis.createClient({ url: process.env.DATABASE_URL });
   client
     .connect()
