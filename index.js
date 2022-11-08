@@ -7,6 +7,7 @@ const redis = require('redis');
 
 try {
   console.log('RedIs-cli started');
+  console.log(process.env.DATABASE_URL)
   const client = redis.createClient({ url: process.env.DATABASE_URL });
   client
     .connect()
