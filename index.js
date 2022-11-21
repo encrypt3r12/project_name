@@ -4,6 +4,7 @@ var pg = require('pg');
 const mongoose = require('mongoose');
 
 console.log('vandit');
+console.log('vandit 2');
 
 const redis = require('redis');
 
