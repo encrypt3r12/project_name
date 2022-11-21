@@ -3,6 +3,8 @@ const port = process.env.PORT || 3000;
 var pg = require('pg');
 const mongoose = require('mongoose');
 
+console.log('vandit');
+
 const redis = require('redis');
 
 try {
