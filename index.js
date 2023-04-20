@@ -7,8 +7,8 @@ const redis = require('redis');
 
 try {
   console.log('REDIS-cli started');
-  console.log(process.env.DATABASE_URL)
-  const client = redis.createClient({ url: process.env.DATABASE_URL });
+  console.log(process.env.REDIS_URL)
+  const client = redis.createClient({ url: process.env.REDIS_URL });
   client
     .connect()
     .then((res) => {
@@ -29,7 +29,8 @@ try {
 
 try {
   console.log('Postgres started');
-  var client = new pg.Client(process.env.DATABASE_URL);
+  console.log(process.env.POSTGRES_URL);
+  var client = new pg.Client(process.env.POSTGRES_URL);
   client
     .connect()
     .then((res) => {
@@ -46,9 +47,9 @@ try {
 }
 try {
   console.log('Mongodb started');
-  console.log(process.env.DATABASE_URL);
+  console.log(process.env.MONGO_URL);
   mongoose
-    .connect(process.env.DATABASE_URL)
+    .connect(process.env.MONGO_URL)
     .then((res) => {
       console.log(res);
       console.log('MongoDB Successfully ended');
